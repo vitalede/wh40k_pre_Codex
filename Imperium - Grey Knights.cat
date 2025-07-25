@@ -1545,7 +1545,7 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Psycannon" id="473e-0784-689e-1c67" hidden="false" defaultSelectionEntryId="4b05-7ba4-756a-a78d">
+            <selectionEntryGroup name="Stormbolter" id="473e-0784-689e-1c67" hidden="false" defaultSelectionEntryId="4b05-7ba4-756a-a78d">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cd45-c859-83b5-1942"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="39e8-1c0b-6993-b95f"/>
