@@ -1545,37 +1545,6 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Stormbolter" id="473e-0784-689e-1c67" hidden="false" defaultSelectionEntryId="4b05-7ba4-756a-a78d">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cd45-c859-83b5-1942"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="39e8-1c0b-6993-b95f"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Storm bolter" hidden="false" id="e150-1cb3-43f3-e568" type="selectionEntry" targetId="18c1-d4b5-0ff0-4808">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f50-c9b8-6b6a-4e08"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Weapon Modifications" hidden="false" id="b33d-f6d1-1191-d7ba" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-                  </entryLinks>
-                </entryLink>
-                <entryLink import="true" name="Incinerator" hidden="false" id="9859-ba05-300f-5d1d" type="selectionEntry" targetId="17ed-2f7b-bf3a-3c94">
-                  <entryLinks>
-                    <entryLink import="true" name="Weapon Modifications" hidden="false" id="bd5e-034b-631e-df1c" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-                  </entryLinks>
-                </entryLink>
-                <entryLink import="true" name="Psycannon" hidden="false" id="4b05-7ba4-756a-a78d" type="selectionEntry" targetId="977f-fdd6-c09c-5def">
-                  <entryLinks>
-                    <entryLink import="true" name="Weapon Modifications" hidden="false" id="6c2e-b53c-a7a5-88b3" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-                  </entryLinks>
-                </entryLink>
-                <entryLink import="true" name="Psilencer" hidden="false" id="9cd7-930b-3c25-5800" type="selectionEntry" targetId="56c3-92fd-4579-7d89">
-                  <entryLinks>
-                    <entryLink import="true" name="Weapon Modifications" hidden="false" id="0ad8-f044-56eb-2c46" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-                  </entryLinks>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
