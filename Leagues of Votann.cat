@@ -2187,6 +2187,11 @@ your control until your opponent&apos;s Level of Control over that objective ma
             <condition type="atLeast" value="1" field="selections" scope="force" childId="5450-1732-26af-84c7" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="6" field="733b-21a8-cda0-eede">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="5450-1732-26af-84c7" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="733b-21a8-cda0-eede" type="max"/>
