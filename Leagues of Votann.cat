@@ -364,7 +364,7 @@ your control until your opponent&apos;s Level of Control over that objective ma
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="a598-9ed5-4f06-bc18" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="af62-d6f6-eee1-bde5">
+            <selectionEntryGroup id="a598-9ed5-4f06-bc18" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7827-334a-d85e-5227">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37f8-f987-fc10-6537" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df80-43d9-c71c-5273" type="max"/>
@@ -471,7 +471,7 @@ your control until your opponent&apos;s Level of Control over that objective ma
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="6b3e-7051-ba8e-6ea9" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="77d1-ad07-5fa7-0006">
+            <selectionEntryGroup id="6b3e-7051-ba8e-6ea9" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6fc8-4163-7dbd-06cb">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a71-20bf-0bb2-005a" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32df-41d8-b39b-8e00" type="max"/>
