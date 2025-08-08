@@ -4245,6 +4245,10 @@ shot this phase, if one or more enemy units were destroyed by those attacks, yo
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d02b-cbb2-aa67-45e5" name="Steeljack Theyn" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="26d8-2021-d61b-a367" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3163-90b6-9a8c-c86d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
           <profiles>
             <profile id="5ed7-d206-308e-ed62" name="Steeljack Theyn" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
               <characteristics>
