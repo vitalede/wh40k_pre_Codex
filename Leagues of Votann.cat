@@ -4263,9 +4263,6 @@ shot this phase, if one or more enemy units were destroyed by those attacks, yo
           </profiles>
           <selectionEntryGroups>
             <selectionEntryGroup name="Heavy Volkanite Disintegrator with Plasma Knife" id="4b9f-3913-35c1-bd2a" hidden="false" collective="false" import="true" defaultSelectionEntryId="62a4-5af9-8d4d-9d0d">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4570-e0f6-528a-9425" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Plasma knife" hidden="false" id="662e-0ebe-4b3d-bbe1" collective="true">
                   <constraints>
@@ -4315,9 +4312,6 @@ shot this phase, if one or more enemy units were destroyed by those attacks, yo
               </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup name="Autoch-pattern bolter (Pistol) with Plasma Sword" id="9515-ce5e-1d7a-2d9e" hidden="false" collective="false" import="true" defaultSelectionEntryId="58c5-35f8-3823-bf60">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="40ce-9ab3-863e-c191" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Autoch-pattern bolter (Pistol)" hidden="false" id="044a-e7b9-6b85-b6d1" collective="true">
                   <constraints>
