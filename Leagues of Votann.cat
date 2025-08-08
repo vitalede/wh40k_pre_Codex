@@ -4245,10 +4245,6 @@ shot this phase, if one or more enemy units were destroyed by those attacks, yo
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d02b-cbb2-aa67-45e5" name="Steeljack Theyn" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d153-937b-0b32-40b8" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="757f-bbab-c5e4-534a" type="max"/>
-          </constraints>
           <profiles>
             <profile id="5ed7-d206-308e-ed62" name="Steeljack Theyn" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
               <characteristics>
@@ -4262,64 +4258,72 @@ shot this phase, if one or more enemy units were destroyed by those attacks, yo
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Volkanite Disintegrator with Plasma Knife" id="4b9f-3913-35c1-bd2a" hidden="false" collective="false" import="true" defaultSelectionEntryId="62a4-5af9-8d4d-9d0d">
-              <profiles>
-                <profile name="Heavy Volkanite disintegrator" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="aa8a-4752-28d7-7357">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Plasma knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5680-935c-8153-695b">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Devastating Wounds" id="6e29-0ce2-170d-1f3a" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
-              </infoLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Autoch-pattern bolter (Pistol) with Plasma Sword" id="9515-ce5e-1d7a-2d9e" hidden="false" collective="false" import="true" defaultSelectionEntryId="58c5-35f8-3823-bf60">
-              <profiles>
-                <profile name="Autoch-pattern bolter (Pistol)" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3a6f-c896-71fe-aa21">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Plasma Sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="c946-1114-57f3-8612">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits1</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Pistol" id="5426-b991-e70f-f64a" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
-                <infoLink name="Sustained Hits" id="9676-63de-26e4-d389" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
-              </infoLinks>
+            <selectionEntryGroup name="Weapons" id="da0d-bad6-b56c-1c04" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Autoch-pattern bolter (Pistol) with Plasma Sword" hidden="false" id="8c8b-1d6e-8256-3b30">
+                  <infoLinks>
+                    <infoLink name="Sustained Hits" id="9676-63de-26e4-d389" hidden="false" targetId="1897-c22c-9597-12b1" type="rule"/>
+                    <infoLink name="Pistol" id="5426-b991-e70f-f64a" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
+                  </infoLinks>
+                  <profiles>
+                    <profile name="Autoch-pattern bolter (Pistol)" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3a6f-c896-71fe-aa21">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Plasma Sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="c946-1114-57f3-8612">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Volkanite Disintegrator with Plasma Knife" hidden="false" id="925f-2ef7-6313-0654">
+                  <profiles>
+                    <profile name="Heavy Volkanite disintegrator" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="55b9-2b31-11db-a79b">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Plasma knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d0dd-c668-d01d-fdf7">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Devastating Wounds" id="7938-c40d-5c2c-434e" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d153-937b-0b32-40b8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="757f-bbab-c5e4-534a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
