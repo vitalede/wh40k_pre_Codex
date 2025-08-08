@@ -4289,6 +4289,9 @@ shot this phase, if one or more enemy units were destroyed by those attacks, yo
                       </characteristics>
                     </profile>
                   </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4a0-57d8-14cb-7950" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heavy Volkanite Disintegrator with Plasma Knife" hidden="false" id="925f-2ef7-6313-0654">
                   <profiles>
@@ -4318,6 +4321,9 @@ shot this phase, if one or more enemy units were destroyed by those attacks, yo
                   <infoLinks>
                     <infoLink name="Devastating Wounds" id="7938-c40d-5c2c-434e" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcc1-804c-38b4-3427" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
