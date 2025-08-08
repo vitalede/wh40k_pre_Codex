@@ -4754,8 +4754,7 @@ shot this phase, if one or more enemy units were destroyed by those attacks, yo
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9c6d-5500-40d3-8ad0" name="Faction: Leagues of Votann" hidden="false" targetId="8474-765-16a9-f00d" primary="false"/>
-        <categoryLink id="efdd-2ba8-57c5-b6db" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="false"/>
-        <categoryLink id="00b2-dea2-63ec-6c01" name="Dedicated Transport" hidden="false" targetId="ba07-411c-2832-1f79" primary="true"/>
+        <categoryLink id="efdd-2ba8-57c5-b6db" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink targetId="c619-2086-bbcf-69c9" id="0586-c278-d488-df65" primary="false" name="Fly"/>
         <categoryLink targetId="f68a-48a6-9702-c05e" id="5520-8433-cf93-b1d2" primary="false" name="Kapricus"/>
         <categoryLink targetId="15d1-4f21-eb3a-9e42" id="1cff-4a5e-8d01-8756" primary="false" name="Defender"/>
