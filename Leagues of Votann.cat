@@ -4265,6 +4265,9 @@ shot this phase, if one or more enemy units were destroyed by those attacks, yo
             <selectionEntryGroup name="Heavy Volkanite Disintegrator with Plasma Knife" id="4b9f-3913-35c1-bd2a" hidden="false" collective="false" import="true" defaultSelectionEntryId="62a4-5af9-8d4d-9d0d">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Plasma knife" hidden="false" id="662e-0ebe-4b3d-bbe1" collective="true">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c165-3013-5682-c702" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
                   <profiles>
                     <profile name="Plasma knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5680-935c-8153-695b">
                       <characteristics>
@@ -4283,6 +4286,9 @@ shot this phase, if one or more enemy units were destroyed by those attacks, yo
                   </costs>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heavy Volkanite disintegrator" hidden="false" id="03e4-9333-ddba-c1eb" collective="true">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="babb-3442-91fc-6c1e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
                   <profiles>
                     <profile name="Heavy Volkanite disintegrator" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="aa8a-4752-28d7-7357">
                       <characteristics>
@@ -4308,6 +4314,9 @@ shot this phase, if one or more enemy units were destroyed by those attacks, yo
             <selectionEntryGroup name="Autoch-pattern bolter (Pistol) with Plasma Sword" id="9515-ce5e-1d7a-2d9e" hidden="false" collective="false" import="true" defaultSelectionEntryId="58c5-35f8-3823-bf60">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Autoch-pattern bolter (Pistol)" hidden="false" id="044a-e7b9-6b85-b6d1" collective="true">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9ac-5b71-1557-2168" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
                   <profiles>
                     <profile name="Autoch-pattern bolter (Pistol)" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3a6f-c896-71fe-aa21">
                       <characteristics>
@@ -4329,6 +4338,9 @@ shot this phase, if one or more enemy units were destroyed by those attacks, yo
                   </costs>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Plasma Sword" hidden="false" id="7166-648d-c13b-6d94" collective="true">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc90-0ff2-f5d3-fb0f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
                   <profiles>
                     <profile name="Plasma Sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="c946-1114-57f3-8612">
                       <characteristics>
